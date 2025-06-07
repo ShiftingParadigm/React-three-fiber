@@ -1,12 +1,38 @@
-# React + Vite
+# 🌌 React Three Fiber 3D Scene — ShiftingParadigm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple yet visually captivating 3D scene built using [React Three Fiber](https://docs.pmnd.rs/react-three-fiber), featuring a textured rotating cylinder with postprocessing effects like **Bloom**. It's my first project exploring 3D rendering in React, inspired by immersive web experiences.
 
-Currently, two official plugins are available:
+> 🚀 Built by [ShiftingParadigm](https://github.com/yourusername)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Preview](./screenshot.png)  
+*(add a screenshot or screen recording here — trust me, it makes a difference)*
+
+---
+
+## 🧩 Tech Stack
+
+- ⚛️ React
+- 🌌 React Three Fiber
+- 🎨 drei (helpers like OrbitControls, useTexture)
+- 🌟 postprocessing (Bloom via EffectComposer)
+- 🖼️ Custom Textured Mesh (image.png)
+- 💅 Tailwind CSS (optional utility styling)
+
+---
+
+## 🛠️ Features
+
+- 🔁 Real-time animated mesh using `useFrame`
+- 🌀 Cylindrical mesh wrapped with a custom texture
+- 🌈 Bloom effect using `@react-three/postprocessing`
+- 🎮 Interactive OrbitControls
+- 🎨 Clean canvas layout with minimal UI
+
+---
+
+## 🧱 Folder Structure
+
