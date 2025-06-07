@@ -1,0 +1,21 @@
+html,body,#root{
+  height: 100%;
+  width: 100%;
+}
+
+#root{
+    position: fixed;
+    background-color: black;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.canvas-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
