@@ -35,4 +35,13 @@ This is a simple yet visually captivating 3D scene built using [React Three Fibe
 ---
 
 ## 🧱 Folder Structure
-
+my-3d-app/
+├── public/
+│ └── image.png # Your custom texture
+├── src/
+│ ├── App.js # Main entry point with Canvas
+│ ├── Scene.js # 3D mesh and animation logic
+│ ├── style.css # Optional styles
+│ └── index.js # ReactDOM rendering
+├── package.json
+└── README.md
