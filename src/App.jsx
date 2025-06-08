@@ -20,7 +20,7 @@ const App = () => {
         </Suspense>
 
         <EffectComposer>
-          <Bloom mipmapBlur intensity={2.0} luminanceThreshold={0.2} luminanceSmoothing={0.1} />
+          <Bloom mipmapBlur intensity={5.0} luminanceThreshold={0.4} luminanceSmoothing={0.1} />
         </EffectComposer>
       </Canvas>
 
