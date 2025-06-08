@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
 
 const Scene = () => {
-  const tex = useTexture('./image.png');
+  const tex = useTexture('./comp.png');
   const mesh = useRef();
 
   useFrame((state, delta) => {
